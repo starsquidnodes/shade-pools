@@ -129,7 +129,7 @@ func main() {
 		query = url.QueryEscape(query)
 
 		url := fmt.Sprintf("%s/compute/v1beta1/query/%s?query=%s",
-			"https://lcd.mainnet.secretsaturn.net",
+			"https://rest.cosmos.directory/secretnetwork",
 			address,
 			query,
 		)
